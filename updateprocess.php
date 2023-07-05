@@ -16,6 +16,7 @@ if(isset($_POST['productname']) && isset($_POST['productdescription']) && isset(
   
     if ($conn->query($sql) === TRUE) {
     echo "Data has been updated successfully";
+    header("Location: index.php");
     } else {
     echo "Error: " . $sql . "<br>" . $conn->error;
     }

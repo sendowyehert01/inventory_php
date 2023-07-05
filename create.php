@@ -43,6 +43,7 @@ if(isset($_POST['productname']) && isset($_POST['productdescription']) && isset(
 
     if ($conn->query($sql) === TRUE) {
     echo "New record created successfully";
+    header("Location: index.php");
     } else {
     echo "Error: " . $sql . "<br>" . $conn->error;
     }

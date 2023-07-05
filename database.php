@@ -2,8 +2,8 @@
 
 function connectDB() {
     $servername = "localhost";
-    $username = "sendo01";
-    $password = "elaTV2dfU/V)1ZbU";
+    $username = "sendow01";
+    $password = "";
     $database = 'inventory';
     
     // Create connection
